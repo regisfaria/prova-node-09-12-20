@@ -23,7 +23,10 @@ $ docker run --name postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postg
 ```
 **!. caso seja usado o container acima, não sera preciso fazer alteraçōes no arquivo "ormconfig.json"**
 **!!. lembre-se que a porta 5432 tem que estar disponivel**. 
-  
+ 
+3.2. Agora que você já configurou a DB no projeto, é preciso criar a database que o projeto vai utilizar. Ela precisa receber o nome de "helpper_test".  
+Você pode mudar isso como quiser, mas lembre-se que as informaçōes tem que estar de acordo com o arquivo "ormconfig.json".
+
 4. Com a base de dados configurada, rode as migrations com:
 ```bash
 $ yarn typeorm migration:run
