@@ -2,9 +2,9 @@
 
 ## Como iniciar o projeto
 1. Certifique-se de estar com as versōes do node atualizadas e de ter o yarn instalado.
-_**node**: https://nodejs.org/en/_
-_**nvm**: https://github.com/nvm-sh/nvm_
-_**yarn**: https://classic.yarnpkg.com/en/_
+_**node**: https://nodejs.org/en/_  
+_**nvm**: https://github.com/nvm-sh/nvm_  
+_**yarn**: https://classic.yarnpkg.com/en/_  
 
 2. Em seguida, instale as dependencias do projeto
 ```bash
@@ -42,12 +42,12 @@ $ yarn dev
 A aplicação foi estruturada com DDD e contém apenas 1 módulo, onde nele encontramos rotas para users e auth. 
 Rotas:
 
-POST - /users  
-GET - /users  
-PUT - /users *requer auth  
-DELETE - /users *requer auth  
+**POST** - /users  
+**GET** - /users  
+**PUT** - /users *requer auth  
+**DELETE** - /users *requer auth  
 
-POST - /sessions
+**POST** - /sessions
 
 Você vai encontrar o'que cada rota precisa de parametros em "/src/modules/users/infra/http/routes/*.routes.ts".
 
@@ -61,10 +61,11 @@ A aplicação contem testes unitarios, para rodar os testes:
 $ yarn test
 ```
 
-Eu também habilitei coverage para os testes, então é possivel ver uma webview do resultado dos testes, após rodados em:
+Eu também habilitei coverage para os testes, então é possivel ver uma webview do resultado dos testes, após rodados em:  
 coverage/lcov-report/index.html
 
 ## Contato
 
-[LinkedIn](https://www.linkedin.com/in/regissfaria/) e [GitHub](https://github.com/regisfaria).
-Email: regisprogramming@gmail.com
+[LinkedIn](https://www.linkedin.com/in/regissfaria/)  
+[GitHub](https://github.com/regisfaria).  
+regisprogramming@gmail.com
