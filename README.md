@@ -1,7 +1,7 @@
 # Prova Hellper
 
 ## Como iniciar o projeto
-1. Certifique-se de estar com as versōes do node atualizadas e de ter o yarn instalado.
+1. Certifique-se de estar com as versōes do node atualizadas e de ter o yarn instalado.  
 _**node**: https://nodejs.org/en/_  
 _**nvm**: https://github.com/nvm-sh/nvm_  
 _**yarn**: https://classic.yarnpkg.com/en/_  
