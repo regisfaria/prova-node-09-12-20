@@ -42,10 +42,10 @@ $ yarn dev
 A aplicação foi estruturada com DDD e contém apenas 1 módulo, onde nele encontramos rotas para users e auth. 
 Rotas:
 
-POST - /users
-GET - /users
-PUT - /users *requer auth
-DELETE - /users *requer auth
+POST - /users  
+GET - /users  
+PUT - /users *requer auth  
+DELETE - /users *requer auth  
 
 POST - /sessions
 
