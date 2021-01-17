@@ -14,7 +14,7 @@ $ yarn install
 3. Certifique-se de configurar o arquivo "ormconfig.json" com a sua configuração de base de dados. O projeto espera uma base de dados do tipo postgresql.
 
 * Para rodar a base de dados, eu utilizo um container de Postgresql com Docker. Vou deixar um quick-install para caso
-  o avaliado também deseje instalar um container postregresql para testar o projeto.
+  o avaliador também deseje instalar um container postregresql para testar o projeto.
 
 3.1. Para instalar um container rapido de docker, é super simples!
      Com o docker instalado, rode o seguinte comando:
