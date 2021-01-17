@@ -1,4 +1,4 @@
-# Prova Hellper
+# Prova Helpper
 
 ## Como iniciar o projeto
 1. Certifique-se de estar com as versōes do node atualizadas e de ter o yarn instalado.  
