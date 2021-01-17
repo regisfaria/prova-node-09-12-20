@@ -22,8 +22,8 @@ $ yarn install
 $ docker run --name postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres
 ```
 **!. caso seja usado o container acima, não sera preciso fazer alteraçōes no arquivo "ormconfig.json"**
-**!!. lembre-se que a porta 5432 tem que estar disponivel**
-
+**!!. lembre-se que a porta 5432 tem que estar disponivel**. 
+  
 4. Com a base de dados configurada, rode as migrations com:
 ```bash
 $ yarn typeorm migration:run
